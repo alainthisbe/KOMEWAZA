@@ -1,0 +1,84 @@
+* body {
+
+    font-family: 'roboto', cursive, sans-serif;
+    text-align: center;
+    color: #003E52;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+nav {
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#images-bols {
+    background: url(images/header-image.jpg);
+    background-size: cover;
+    height: 40vh;
+}
+
+
+
+#Text-Kome-Waza {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 50px;
+}
+
+#signature-poke {
+    margin: 0 25vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-size: 40px;
+    c
+}
+
+h2 {
+    font-size: 30px;
+    color: #003E52;
+
+
+}
+
+p {
+    font-size: 20px;
+    color: #003E52;
+}
+
+#epices {
+
+    display: flex;
+    justify-content: space-around
+}
+
+/* Enlever le souligné */
+a {
+    text-decoration: none;
+}
+/* Pied de page */
+
+footer {
+
+    background-color: #003E52;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
